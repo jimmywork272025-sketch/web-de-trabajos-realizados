@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#contenedor{
+    border:1px solid black;
+    margin:5px;
+    width:100%;
+    height: 1300px;    
+}
+#cabecera{
+   
+    height: 100px;
+    background-color:beige;
+    padding: 10px;
+    border-bottom: 1px solid grey;
+    padding:5px;
+    
+    /*Flexbox*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    /*Posicionamiento fijo*/
+    position: fixed;
+    top:0;
+    left:10px;
+    width:100%;
+}
+#titulo{
+    
+    width:40%;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: Helvatica;
+}
+h1{    
+   margin-top:5px;
+   margin-bottom: 5px;;
+}
+#cabecera h2{
+    margin-top: 0;
+    margin-bottom: 5px;
+   
+}
+#menu{
+    
+    width:60%
+}
+#menu ul{
+    list-style-type: none;
+    font-size: 20px;
+    /*Flexbox*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+#menu a{
+    text-decoration: none;
+    padding:10px;
+    color:darkslategray;
+    text-transform: uppercase;
+}
+#menu a:hover{
+    background-color: dimgray;
+    color:white
+}
+#contenido{
+    scroll-behavior: smooth;
+    margin-top:100px;
+  
+}
+#logo{
+    margin:10px;
+    width:40%;
+}
+#logo img{
+    width:100%;
+}
+#seccion{
+    
+    margin:20px;
+    padding:20px;
+}
+#seccion h3{
+    text-decoration: underline;
+    padding: 10px;
+}
+#seccion li{
+    padding-left:10px;
+    padding-bottom: 5px;
+}
